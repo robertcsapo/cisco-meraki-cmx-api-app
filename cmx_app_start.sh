@@ -27,7 +27,7 @@ if [ -n "$CMX_PORT" ];
     echo "CMX_PORT is set"
     ARG_CMX_PORT="-p "$CMX_PORT
   else
-    ARG_CMX_PORT="4567"
+    ARG_CMX_PORT="-p 4567"
 fi
 
 echo "ruby /cmx-api-app/sample_location_server.rb $ARG_CMX_BIND $ARG_CMX_PORT $CMX_SECRET $CMX_VALIDATOR"
