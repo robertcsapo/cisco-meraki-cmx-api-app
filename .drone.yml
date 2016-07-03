@@ -1,0 +1,26 @@
+image: ruby:latest
+git:
+  path: github.com/robertcsapo/cisco-meraki-cmx-api-app
+script:
+  - echo "build commands"
+  - echo "no build command"
+  - echo "no test command"
+clone:
+  path: github.com/robertcsapo/cisco-meraki-cmx-api-app
+build:
+  image: ruby:latest
+  commands:
+    - echo "build commands"
+    - echo "no build command"
+    - echo "no test command"
+publish:
+  docker:
+    file: ./Dockerfile
+    insecure: true
+    username: $$docker_user
+    password: $$docker_key
+    registry: $$docker_registry
+    repo: $$docker_repo
+    email: $$docker_user_email
+    tag: $$COMMIT
+    
