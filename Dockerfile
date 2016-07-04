@@ -13,5 +13,8 @@ RUN DEBIAN_FRONTEND=noninteractive git clone https://github.com/meraki/cmx-api-a
 # Google Maps API added
 COPY public/index.html /cmx-api-app/public/index.html
 
+# Zoom out and have the world as default center (not Meraki HQ)
+COPY public/sample.js /cmx-api-app/public/sample.js
+
 COPY cmx_app_start.sh /cmx-api-app/
 CMD bash /cmx-api-app/cmx_app_start.sh
