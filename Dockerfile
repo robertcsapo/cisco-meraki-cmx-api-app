@@ -10,5 +10,8 @@ RUN DEBIAN_FRONTEND=noninteractive gem install dm-sqlite-adapter
 RUN DEBIAN_FRONTEND=noninteractive gem install thin
 RUN DEBIAN_FRONTEND=noninteractive git clone https://github.com/meraki/cmx-api-app.git
 
+# Google Maps API added
+COPY public/index.html /cmx-api-app/public/index.html
+
 COPY cmx_app_start.sh /cmx-api-app/
 CMD bash /cmx-api-app/cmx_app_start.sh
