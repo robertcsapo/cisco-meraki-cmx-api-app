@@ -3,7 +3,7 @@ MAINTAINER Robert (robert@nigma.org)
 
 EXPOSE 4567
 
-# Installing python and python3
+# Installing ruby gems
 RUN DEBIAN_FRONTEND=noninteractive gem install sinatra
 RUN DEBIAN_FRONTEND=noninteractive gem install data_mapper
 RUN DEBIAN_FRONTEND=noninteractive gem install dm-sqlite-adapter
