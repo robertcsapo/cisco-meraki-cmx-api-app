@@ -92,7 +92,7 @@ docker exec -it <containerid/containername> /bin/bash
 
 ### ciscoshipped.io
 It's now possible to host this application through ciscoshipped.io.  
-![README.md](https://raw.githubusercontent.com/robertcsapo/cisco-meraki-cmx-api-app/master/ciscoshipped/README.md) in ciscoshipped folder.  
+[README.md](https://github.com/robertcsapo/cisco-meraki-cmx-api-app/tree/master/ciscoshipped) in ciscoshipped folder.  
 
 ## Validate the docker service in Meraki Dashboard
 
