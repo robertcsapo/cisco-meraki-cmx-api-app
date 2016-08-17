@@ -90,6 +90,10 @@ docker exec -it <containerid/containername> /bin/bash
 - git clone https://github.com/robertcsapo/cisco-meraki-cmx-api-app.git
 - ```docker build -t robertcsapo/cisco-meraki-cmx-api-app .```
 
+### ciscoshipped.io
+It's now possible to host this application through ciscoshipped.io.  
+![README.md](https://raw.githubusercontent.com/robertcsapo/cisco-meraki-cmx-api-app/master/ciscoshipped/README.md) in ciscoshipped folder.  
+
 ## Validate the docker service in Meraki Dashboard
 
 - Click the “Validate server” button in CMX Location Push API configuration in
