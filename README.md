@@ -90,6 +90,10 @@ docker exec -it <containerid/containername> /bin/bash
 - git clone https://github.com/robertcsapo/cisco-meraki-cmx-api-app.git
 - ```docker build -t robertcsapo/cisco-meraki-cmx-api-app .```
 
+### OpenShift (https://www.openshift.com/) support
+Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
+[README.md](https://github.com/robertcsapo/cisco-meraki-cmx-api-app/tree/openshift/openshift) in openshift folder.  
+
 ### ciscoshipped.io
 It's now possible to host this application through ciscoshipped.io.  
 [README.md](https://github.com/robertcsapo/cisco-meraki-cmx-api-app/tree/master/ciscoshipped) in ciscoshipped folder.  
